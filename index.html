@@ -1,0 +1,16 @@
+<html>	
+	<head>
+		<script src="http://cdn.peerjs.com/0.3/peer.js"></script>
+		<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<script src="static/sha256.js"></script>
+		<script src="static/client.js"></script>
+		<script type="text/javascript">
+			firstSetup = true;
+			peer = new Peer( {host: 'localhost', port: 9000, path: '/api'});
+			setUpClient('/content');
+		</script>
+
+	</head>
+
+
+</html>
